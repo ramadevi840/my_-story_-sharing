@@ -1,0 +1,161 @@
+/* Additions to globals.css */
+/* .flex {
+  display: flex;
+}
+
+.transition-transform {
+  transition: transform 0.5s ease;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.shadow-md {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hover\:bg-blue-600:hover {
+  background-color: #4c51bf; 
+}
+
+.w-full {
+  width: 100%;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-gray-600 {
+  color: #4a5568;
+}
+
+.underline {
+  text-decoration: underline;
+}
+ */
+/* login.css */
+
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+}
+
+.login-box {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  width: 320px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.title {
+  font-size: 1.8em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1em;
+  transition: border 0.3s ease;
+}
+
+.input-field:focus {
+  border-color: #66a6ff;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background-color: #66a6ff;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #4a8cd9;
+}
+
+.forgot-password {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: #66a6ff;
+  cursor: pointer;
+}
+
+.toggle-button {
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #666;
+  cursor: pointer;
+  background: none;
+  border: none;
+  text-decoration: underline;
+}
+
+.social-text {
+  margin: 15px 0 10px;
+  font-size: 0.9em;
+  color: #888;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.social-button {
+  padding: 8px 15px;
+  font-size: 0.9em;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.facebook:hover {
+  background-color: #2d4373;
+}
+
+.google {
+  background-color: #db4437;
+}
+
+.google:hover {
+  background-color: #c23321;
+}

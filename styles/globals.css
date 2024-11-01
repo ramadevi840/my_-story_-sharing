@@ -1,0 +1,291 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* globals.css */
+
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f0f4f8;
+}
+
+/* Global Colors */
+:root {
+  --primary-color: #3490dc;
+  --secondary-color: #ffed4a;
+  --bg-light: #f8fafc;
+  --text-dark: #333;
+  --text-light: #fff;
+  --gray: #6c757d;
+}
+
+/* Layout */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Styles */
+header {
+  background-color: var(--primary-color);
+  color: var(--text-light);
+}
+
+header a {
+  color: var(--text-light);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+header a:hover {
+  color: var(--secondary-color);
+}
+
+header .text-xl {
+  font-size: 1.5rem;
+}
+
+/* Button Styles */
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--secondary-color);
+}
+
+.bg-blue-500 {
+  background-color: var(--primary-color);
+  color: var(--text-light);
+}
+
+.bg-gray-500 {
+  background-color: var(--gray);
+  color: var(--text-light);
+}
+
+/* Hero Section */
+.hero-section {
+  
+  padding: 50px 0;
+  text-align: center;
+  background: linear-gradient(to right, #3490dc, #6574cd);
+  color: var(--text-light);
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+}
+
+.hero-section p {
+  margin: 20px 0;
+  font-size: 1.2rem;
+}
+
+/* Input Fields */
+input[type="email"],
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+  border-color: var(--primary-color);
+  outline: none;
+}
+
+/* Cards (for Feature Boxes) */
+.card {
+  background-color: var(--bg-light);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  text-align: center;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: var(--gray);
+  font-size: 0.9rem;
+}
+
+/* Footer */
+footer {
+  background-color: var(--primary-color);
+  color: var(--text-light);
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+/* Additions to globals.css */
+.flex {
+  display: flex;
+}
+
+.transition-transform {
+  transition: transform 0.5s ease;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.shadow-md {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hover\:bg-blue-600:hover {
+  background-color: #4c51bf; /* Darker blue on hover */
+}
+
+.w-full {
+  width: 100%;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-gray-600 {
+  color: #4a5568;
+}
+
+.underline {
+  text-decoration: underline;
+}
+/* globals.css additions */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.shadow-md {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hover\:bg-blue-600:hover {
+  background-color: #4c51bf; /* Darker blue on hover */
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.grid {
+  display: grid;
+}
+/* globals.css additions */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.text-gray-700 {
+  color: #4a5568;
+}
+
+.text-gray-600 {
+  color: #718096;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+textarea {
+  transition: all 0.3s ease;
+}
+
+input[type="file"] {
+  display: block;
+  margin: 10px 0;
+}
+
+button {
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+select {
+  transition: border-color 0.3s ease;
+}
+
+select:focus {
+  border-color: #0056b3; /* Change border color on focus */
+}
